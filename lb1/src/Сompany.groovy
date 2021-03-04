@@ -3,17 +3,22 @@ import java.awt.List
 class Company {
     public String _CName
     def workersList = []
+    public President president
 
     public int WorkersNumber(){
-        return workersList.size()
+        def number = workersList.size()
+        if (president != null)
+            number++
     }
 
     public int SalaryAll(){
-        int sum = 0
+        int sum = workersList.sum(){
+
+        }
         workersList.each {
             sum = sum + it._Salary
         }
-        return sum
-
+        if (president != null)
+            sum += president._Salary
     }
 }

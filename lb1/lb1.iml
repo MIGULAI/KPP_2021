@@ -7,15 +7,27 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="groovy-3.0.6" level="application" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../../groovyLab/groovy-3.0.6/lib/extras-jaxb" />
+          <root url="file://C:/groovy-3.0.7/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://C:/groovy-3.0.7/lib" />
+        </SOURCES>
+        <jarDirectory url="file://C:/groovy-3.0.7/lib" recursive="false" />
+        <jarDirectory url="file://C:/groovy-3.0.7/lib" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://C:/groovy-3.0.7/lib/extras-jaxb" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
-        <jarDirectory url="file://$MODULE_DIR$/../../groovyLab/groovy-3.0.6/lib/extras-jaxb" recursive="false" />
+        <jarDirectory url="file://C:/groovy-3.0.7/lib/extras-jaxb" recursive="false" />
       </library>
     </orderEntry>
   </component>
