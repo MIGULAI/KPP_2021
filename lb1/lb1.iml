@@ -10,24 +10,24 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://C:/groovy-3.0.7/lib" />
+          <root url="file://$MODULE_DIR$/../../groovyLab/groovy-3.0.6/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://C:/groovy-3.0.7/lib" />
+          <root url="file://$MODULE_DIR$/../../groovyLab/groovy-3.0.6/lib" />
         </SOURCES>
-        <jarDirectory url="file://C:/groovy-3.0.7/lib" recursive="false" />
-        <jarDirectory url="file://C:/groovy-3.0.7/lib" recursive="false" type="SOURCES" />
+        <jarDirectory url="file://$MODULE_DIR$/../../groovyLab/groovy-3.0.6/lib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../groovyLab/groovy-3.0.6/lib" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://C:/groovy-3.0.7/lib/extras-jaxb" />
+          <root url="file://$MODULE_DIR$/../../groovyLab/groovy-3.0.6/lib/extras-jaxb" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
-        <jarDirectory url="file://C:/groovy-3.0.7/lib/extras-jaxb" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../groovyLab/groovy-3.0.6/lib/extras-jaxb" recursive="false" />
       </library>
     </orderEntry>
   </component>

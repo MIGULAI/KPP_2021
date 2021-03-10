@@ -1,5 +1,5 @@
 class President extends Employer{
-    public static void About(){
+    public void About(){
         Console.println("I am President")
     }
 }

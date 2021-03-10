@@ -10,8 +10,7 @@ class lb1 {
         Company myCompany = new Company(_CName: "ManyMakers" , president: mainWorker)
 
         Worker worker1 = new Worker(_Name: "Ivan", _Salary: 2500)
-
-        myCompany.workersList.add(worker1)
+        myCompany.AddNewWorker(worker1)
 
         println("Number of workers is " + myCompany.WorkersNumber())
         println("Salary per months in company is " + myCompany.SalaryAll())
