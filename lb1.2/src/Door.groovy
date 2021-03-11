@@ -15,6 +15,9 @@ class Door implements IPart{
             println("Door instaled")
             house.doorN--
             house.parts.push(base)
+            if(house.doorN == 0){
+                house.buildingStatus.door = true
+            }
         }
 
     }

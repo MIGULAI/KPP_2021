@@ -15,6 +15,9 @@ class Wall implements IPart {
             println("Wall instaled")
             house.wallN--
             house.parts.push(base)
+            if(house.wallN == 0){
+                house.buildingStatus.walls = true
+            }
         }
 
     }

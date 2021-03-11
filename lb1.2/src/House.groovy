@@ -10,5 +10,12 @@ class House {
     int roofW = 2
     int doorW = 1
     int windowW = 1
+    def buildingStatus = [
+            "basement": false,
+            "walls":false,
+            "roof" : false,
+            "door" : false,
+            "windows" : false
+    ]
 
 }

@@ -26,12 +26,12 @@ class Company {
     public void DeleteFromWorker(def worker){
         workersList.remove(worker)
     }
+    //groovy работа с колекциями Collect
     public def ReturnWorkers(){
         def arrayReturn = []
         workersList.forEach(){
             if (it instanceof Worker)
                 arrayReturn.add(it)
         }
-        return arrayReturn
     }
 }
