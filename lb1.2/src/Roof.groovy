@@ -15,6 +15,9 @@ class Roof implements IPart{
             println("Roof instaled")
             house.roofN--
             house.parts.push(base)
+            if(house.roofN == 0){
+                house.buildingStatus.roof = true
+            }
         }
 
     }

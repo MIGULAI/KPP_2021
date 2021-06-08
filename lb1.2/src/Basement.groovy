@@ -16,6 +16,9 @@ class Basement implements IPart {
             println("Basement instaled")
             house.basementN--
             house.parts.push(base)
+            if(house.basementN == 0){
+                house.buildingStatus.basement = true
+            }
         }
 
     }

@@ -15,6 +15,9 @@ class Window implements IPart{
             println("Window instaled")
             house.windowN--
             house.parts.push(base)
+            if(house.windowN == 0){
+                house.buildingStatus.windows = true
+            }
         }
 
     }
