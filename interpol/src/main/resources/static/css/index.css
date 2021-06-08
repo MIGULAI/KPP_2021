@@ -1,0 +1,15 @@
+.item{
+    display: flex;
+    flex-direction: row;
+    min-width: 7%;
+    width: auto;
+    align-self: center;
+}
+.item-container{
+    display: flex;
+
+}
+
+.item_date{
+    width: auto;
+}
